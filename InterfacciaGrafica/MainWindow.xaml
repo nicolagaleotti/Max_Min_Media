@@ -1,0 +1,23 @@
+﻿<Window x:Class="InterfacciaGrafica.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InterfacciaGrafica"
+        mc:Ignorable="d"
+        Title="Massimo, Minimo e Media" Height="459" Width="685" ResizeMode="CanMinimize">
+    <Grid Background="#FF70A4FF">
+        <TextBox Name="txtn1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="166,101,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="33" FontSize="18" Background="#FF0097FF" Foreground="White"/>
+        <TextBox Name="txtn2" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="400,101,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="33" FontSize="18" Background="#FF0097FF" Foreground="White"/>
+        <Label Content="Numero 1:" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="166,64,0,0" VerticalAlignment="Top" Width="120" FontWeight="Bold" FontSize="20" Foreground="#FF001C7C"/>
+        <Label Content="Numero 2:" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="400,64,0,0" VerticalAlignment="Top" Width="120" FontSize="20" FontWeight="Bold" Foreground="#FF001C7C"/>
+        <TextBox x:Name="txtmassimo" IsReadOnly="True" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="83,344,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="33" FontSize="18" Background="#FF0097FF" Foreground="White"/>
+        <Label Content="MASSIMO" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="83,307,0,0" VerticalAlignment="Top" Width="120" FontWeight="Bold" FontSize="20" Foreground="#FF001C7C"/>
+        <TextBox x:Name="txtminimo" IsReadOnly="True" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Margin="0,344,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="33" FontSize="18" Background="#FF0097FF" Foreground="White"/>
+        <Label Content="MINIMO" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Margin="0,307,0,0" VerticalAlignment="Top" Width="120" FontWeight="Bold" FontSize="20" Foreground="#FF001C7C"/>
+        <TextBox x:Name="txtmedia" IsReadOnly="True" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="486,344,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="33" FontSize="18" Background="#FF0097FF" Foreground="White"/>
+        <Label Content="MEDIA" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="486,307,0,0" VerticalAlignment="Top" Width="120" FontWeight="Bold" FontSize="20" Foreground="#FF001C7C"/>
+        <Button Name="btncalcola" Content="CALCOLA" HorizontalAlignment="Center" VerticalAlignment="Center" Width="173" Height="69" FontSize="24" FontWeight="Bold" Foreground="#FF001C7C" Background="#FF0097FF" Click="btncalcola_Click"/>
+
+    </Grid>
+</Window>
